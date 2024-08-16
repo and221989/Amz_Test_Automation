@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke1_Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC15_Amz_GoToCart_WithoutLogin"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC13_Amz_Apply_Coupn"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC9_Amz_AddtoCart"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC7_Amz_ProductDetails"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC12_Amz_Check_EveryPayment_Selection"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC3_Amz_InvalidUser"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC11_Amz_CartPayment"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC6_Amz_Select_Product_AfterFilter"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC4_Amz_EditProfile"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC10_Amz_Product_Increase_Decrease"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC8_Amz_Filter_Product"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC14_Amz_Review_ProductOrdered"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC5_Amz_Search_Product"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC2_Amz_Login"/>
+      <class name="Amazon_Maven_Project.Amazon_POM.TC1_Amz_New_Registration"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Smoke1_Suite -->
