@@ -11,9 +11,16 @@ WebDriver driver;
 	@FindBy(id="Oder")
 	WebElement Search_TextField;
 	
+	@FindBy(id="Payment")
+	WebElement Payment;
+	
 	public void getOrder()
 	{
 		System.out.println("Oredr Page");
 	}
 
+	public void getPayment()
+	{
+		System.out.println("Payment Page");
+	}
 }
